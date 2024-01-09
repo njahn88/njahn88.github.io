@@ -130,7 +130,7 @@ header{
     font-size: 20px;
 }
 
-a { 
+.aType{ 
     color: inherit;
     text-decoration: none;
 }
