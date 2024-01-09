@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="name_text">
+            <a href="index.html">Nathan Jahn</a>
+        </h1>
+        <h2 class="name_text">
+            <a href="currentProjects.html">Current Project</a>
+        </h2>
+        <div class="icon_header_flex">
+            <a href="https://www.youtube.com/channel/UCKr2WcUFfZ3bGBo7M2XjeCg" class="icon" target="_blank">
+                <img src="youtubelogo.png" alt="Youtube Channel" class="icon-image">
+            </a>
+            <a href="https://eagerdev.itch.io/" class="icon" target="_blank">
+                <img src="itchlogo.png" alt="Itch.io Page" class="icon-image">
+            </a>
+        </div>
+    </header>
+    <ol class="list">
+        <div class="project-box">
+            <h1 class="name_text">Multiplayer Unity Game</h1>
+            <div class="update-text">
+                Update 1:<br>
+                I recently started the project and have been working on getting the Multiplayer systems setup. I have been doing a lot of research into the Fishnet Unity package. <br>
+                Since this is going to be a first person shooter of some sort there are several things that I still need to look into to make the game as smooth as possible. <br><br>
+                Goals: <br><br>
+                1: Learn Fishnet and included scripts for multiplayer setup <br>
+                2: Understand how lag compensation works and how to implement it with Fishnet <br>
+                3: Learn how to make overarching systems for the server to use to handle game states <br>
+                4: Deepdive into new game mechanics to make game different from what is already out there <br>
+                <br>
+                <div class="update-gif">
+                    <img src="Update1.gif" alt="Update1">
+                </div> <br>
+                I have been able to connect two players in their own editor. I am using Network Objects and Network Transforms to relay information about the position and rotation of the players. While learning about Fishnet <br>
+                I ran into SyncVars, which opened the door to being able to update the players on both sides.<br>
+                Here is a snippet from my WeaponSystem.cs class, which currently handles the player switching weapons and firing weapons: <br><br>
+                <div class="update-gif">
+                    <img src="Update1ServerRpc.PNG" alt="Code Snippet">
+                </div> <br>
+                The variable _currentIndex is a SyncVar of type integer. The line , _currentIndex.Value = currentWeaponIndex; , is updating the SycnVar variable and call the <br>
+                OnCurrentWeaponIndexChange function. The function goes through the players current weapons and finds which weapon should be set active based on the <br>
+                _currentIndex.Value which was just updated. <br>
+                The next things to focus on will be projectile shooting (Raycast) for weapons and hit detection. Another thing to work on will be making sure that <br>
+                when the player looks in a direction that the model follows. Currently the model rotation information is not being sent to the server.
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-box">Email: NathanJahn8@gmail.com</div>
+            <div class="footer-box">
+                About me:<br>
+                My name is Nathan Jahn. I've been interested in game design ever since I was a kid watching my older brother play games. <br> 
+                I've found now more than ever I find myself always asking myself how I could replicate and create the elements I see in games such as their inventory systems, UI systems, NPC characters, game managers, etc... 
+                I am currently working towards my bachelors degree in computer science at Louisiana Tech University and have participated in two game jams. I am most proficient in C#, but also have knowledge in C++, Javascript, Python, and SML.</div>
+        </div>
+    </ol>
+</body>
+</html>
