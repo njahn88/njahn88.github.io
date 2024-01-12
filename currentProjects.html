@@ -27,6 +27,26 @@
         <div class="project-box">
             <h1 class="name_text">Multiplayer Unity Game</h1>
             <div class="update-text">
+                Update 2:<br>
+                Rotation and Hit detection!<br>
+                I've been working on getting the rotation of the "head" to be seen on all clients and it was pretty simple! I just added a network object and network transform components <br>
+                onto the "camera" joint Game Object. We can see here that the look rotation of the players is being taken into account: 
+                <br>
+                <div class="update-gif">
+                    <img src="Gifs/Update2.gif" alt="Update2">
+                </div> <br>
+                With this not taking as much time as I originally thought it would, I had to keep going. The next thing to tackle was going to be the hit detection when firing at <br>
+                another player. During this process I learned a little bit more about SyncVars and how they are used to update clients. With this being called by objects that are not owners <br>
+                we use [ServerRpc(RequireOwnership = false)], so that it call be called from anyone.
+                <div class="update-gif">
+                    <img src="Images/Update2ServerRpc.PNG" alt="Code Snippet">
+                </div>
+                Going forward here are my next goals: <br><br>
+                1. Implement player death / respawning
+                2. Look into procedural animations for guns
+                3. Start to flesh out 'what the actual game is'
+            </div>
+            <div class="update-text">
                 Update 1:<br>
                 I recently started the project and have been working on getting the Multiplayer systems setup. I have been doing a lot of research into the Fishnet Unity package. <br>
                 Since this is going to be a first person shooter of some sort there are several things that I still need to look into to make the game as smooth as possible. <br><br>
