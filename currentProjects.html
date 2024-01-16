@@ -27,6 +27,16 @@
         <div class="project-box">
             <h1 class="name_text">Multiplayer Unity Game</h1>
             <div class="update-text">
+                Update 3:<br>
+                Player spawning!<br>
+                This update is about the player spawning for the game. This was by far the most difficult update so far. As I was using Unity's built in first person controller, I was <br>
+                unfamiliar with how it actually worked. There was a point where everything would work perfectly fine without the first person controller. After a few tweeks I seem to have <br>
+                solved the problem. Now players when killed will be unable to move or look with the camera, unable to be shot while dead (colliders disabled), able to move and shoot when <br>
+                responded. The spawner keeps track off all players and their current death time, then respawns the player at a random location. <br>
+                <div class="update-gif">
+                    <img src="Images/Update3Spawner.png" alt="Code Snippet">
+                </div> <br>
+            <div class="update-text">
                 Update 2:<br>
                 Rotation and Hit detection!<br>
                 I've been working on getting the rotation of the "head" to be seen on all clients and it was pretty simple! I just added a network object and network transform components <br>
@@ -39,7 +49,7 @@
                 another player. During this process I learned a little bit more about SyncVars and how they are used to update clients. With this being called by objects that are not owners <br>
                 we use [ServerRpc(RequireOwnership = false)], so that it call be called from anyone.
                 <div class="update-gif">
-                    <img src="Images/Update2ServerRpc.PNG" alt="Code Snippet">
+                    <img src="Images/Update2ServerRpc.png" alt="Code Snippet">
                 </div>
                 Going forward here are my next goals: <br><br>
                 1. Implement player death / respawning
@@ -63,7 +73,7 @@
                 I ran into SyncVars, which opened the door to being able to update the players on both sides.<br>
                 Here is a snippet from my WeaponSystem.cs class, which currently handles the player switching weapons and firing weapons: <br><br>
                 <div class="update-gif">
-                    <img src="Images/Update1ServerRpc.PNG" alt="Code Snippet">
+                    <img src="Images/Update1ServerRpc.png" alt="Code Snippet">
                 </div> <br>
                 The variable _currentIndex is a SyncVar of type integer. The line , _currentIndex.Value = currentWeaponIndex; , is updating the SycnVar variable and call the <br>
                 OnCurrentWeaponIndexChange function. The function goes through the players current weapons and finds which weapon should be set active based on the <br>
