@@ -1,6 +1,7 @@
 import Showcase from '../components/Showcase.jsx'
 import DieOrPrizeImg from '../img/DieorPrize.png'
 import BohemianImg from '../img/bohemian-ret.jpg'
+import OnlyUpImg from '../img/Only-Up.png'
 
 export default function Home() {
     return (
@@ -18,14 +19,18 @@ export default function Home() {
                           img={DieOrPrizeImg}
                           layout={1}
                 />
-                <hr className={'border-gray-300 mx-6 w-full'} />
                 <Showcase title={'Bohemian Retreat'}
                           description={'Bohemian Retreat follows a child as they traverse their camp, discovering the dark and twisted secrets it holds.'}
-                          tags={['Game Design', 'Level Design']}
+                          tags={['Game Design', 'Level Design', 'Character Controller']}
                           img={BohemianImg}
                           layout={0}
                 />
-                <hr className={'border-gray-300 mx-6 w-full'} />
+                <Showcase title={'Only Up'}
+                          description={'Climb to survive the ever rising lava. Fully solo developed and created in three days using Unity Engine.'}
+                          tags={['Game Design', 'Art Design',]}
+                          img={OnlyUpImg}
+                          layout={1}
+                />
             </div>
         </>
     )

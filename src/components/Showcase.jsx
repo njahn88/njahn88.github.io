@@ -13,6 +13,7 @@ export default function Showcase({title, description, tags, img, layout}) {
                     <ShowcaseInfo title={title} description={description} tags={tags} />
                 </div>
             </div>
+            <hr className={'border-gray-300 mx-6 w-full'} />
         </>
     )
 }
