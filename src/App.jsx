@@ -1,12 +1,17 @@
+import {Routes, Route, Link} from 'react-router-dom';
+import Navbar from './components/Navbar.jsx';
+import Home from "./pages/Home.jsx";
+import Blog from "./pages/Blog.jsx";
+
 function App() {
 
   return (
     <>
-      <div className={'flex w-full justify-center items-center p-3'}>
-          <div className={'font-bold font-outfit text-4xl'}>
-              Nathan Jahn - Game Developer
-          </div>
-      </div>
+        <Navbar />
+        <Routes>
+            <Route path='/' element={<Home/>} />
+            <Route path='/Blog' element={<Blog/>} />
+        </Routes>
     </>
   )
 }

@@ -3,4 +3,9 @@
 
 @theme{
     --font-outfit: "Outfit", sans-serif;
+    --color-offWhite: #ebebeb;
+}
+
+:root{
+    background: var(--color-offWhite);
 }
