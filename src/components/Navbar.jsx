@@ -6,7 +6,7 @@ export default function Navbar() {
       <>
           <div className={'grid grid-rows-2 w-full justify-center items-center p-3'}>
               <div className={'font-bold font-outfit text-5xl pb-4'}>
-                  Nathan Jahn - Game Developer
+                  Nathan Jahn - Game Designer
               </div>
               <div className={'flex justify-center items-center gap-6'}>
                   <div className={'font-outfit text-1xl transition-all duration-100 hover:font-bold'}>
