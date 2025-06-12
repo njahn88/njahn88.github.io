@@ -1,14 +1,14 @@
-import GraduationPicture from '../img/graduation.png'
+import NVGPicture from '../img/NVGImg.jpg'
 
 export default function AboutMe() {
     return (
         <>
             <div className={'flex justify-center items-center py-4 flex-wrap'}>
                 <div className={'grid grid-cols-2 gap-5'}>
-                    <div className={'col-start-1 h-100 w-100'}>
-                        <img src={GraduationPicture} alt={'Nathan Jahn'} className={'rounded-lg'} />
+                    <div className={'col-start-2 h-100 w-100 row-start-1'}>
+                        <img src={NVGPicture} alt={'Nathan Jahn'} className={'rounded-lg'} />
                     </div>
-                    <div className={'col-start-2'}>
+                    <div className={'col-start-1 row-start-1'}>
                         <div className={'grid grid-rows-[auto auto]'}>
                             <div className={'font-outfit font-bold text-2xl row-start-1'}>
                                 Hello! My name is Nathan Jahn.
