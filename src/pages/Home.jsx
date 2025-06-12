@@ -2,16 +2,12 @@ import Showcase from '../components/Showcase.jsx'
 import DieOrPrizeImg from '../img/DieorPrize.png'
 import BohemianImg from '../img/bohemian-ret.jpg'
 import OnlyUpImg from '../img/Only-Up.png'
+import {Route, Routes} from "react-router-dom";
+import DieOrPrize from './InfoPages/DieOrPrize.jsx'
 
 export default function Home() {
     return (
         <>
-            <div className={'flex justify-center items-center py-4'}>
-                <div className={'font-outfit text-2xl font-bold text-center'}>
-                    Game Development, Analysis, Programming and everything in between.
-                </div>
-            </div>
-            <hr className={'border-gray-300 mx-6'} />
             <div className={'flex justify-center items-center py-4 flex-wrap'}>
                 <Showcase title={'Die Or Prize'}
                           description={'Die Or Prize is a 2D platforming game which has the player control a \'contestant\', fighting to survive a gauntlet of increasingly difficult levels.'}
