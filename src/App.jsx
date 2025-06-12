@@ -6,6 +6,7 @@ import AboutMe from './pages/AboutMe.jsx'
 import Contact from './pages/Contact.jsx'
 import DieOrPrize from "./pages/InfoPages/DieOrPrize.jsx";
 import BohemianRetreat from './pages/InfoPages/BohemianRetreat.jsx'
+import OnlyUp from './pages/InfoPages/OnlyUp.jsx'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Route path='/Contact' element={<Contact/>} />
             <Route path='/Die Or Prize' element={<DieOrPrize/>}/>
             <Route path='/Bohemian Retreat' element={<BohemianRetreat/>}/>
+            <Route path='/Only Up' element={<OnlyUp/>}/>
         </Routes>
     </>
   )
