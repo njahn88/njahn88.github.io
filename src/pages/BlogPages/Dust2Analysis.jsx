@@ -19,6 +19,12 @@ import BSiteCar2 from '/src/img/Dust2Analysis/BSite-Car2.png'
 import Middle1 from '/src/img/Dust2Analysis/Middle-1.png'
 import Middle2 from '/src/img/Dust2Analysis/Middle-2.png'
 import Middle3 from '/src/img/Dust2Analysis/Middle-3.png'
+import PlayerContrast1 from '/src/img/Dust2Analysis/PlayerContrast.png'
+import PlayerContrast2 from '/src/img/Dust2Analysis/PlayerContrast2.png'
+import PlayerContrast3 from '/src/img/Dust2Analysis/PlayerContrast3.png'
+import Dust2Fps from '/src/img/Dust2Analysis/Fps_Dust2.png'
+
+
 
 export default function Dust2Analysis(){
     return (
@@ -258,6 +264,58 @@ export default function Dust2Analysis(){
             </div>
             <div className={'flex justify-start px-100 font-outfit font-bold text-4xl pt-10'}>
                 Visual Clarity
+            </div>
+            <div className={'flex justify-start px-100 font-outfit pt-5'}>
+                Visual clarity is a key objective of any map in counter strike and one of the most important
+                considerations when a new map is created. What this means for the developers is that the map
+                should be easily readable and clear for anyone playing. In practice this comes in the form
+                of lighting. If the lighting of a given part of the map is off it can lead to an unfair advantage
+                where players are not able to easily see enemies. Dust 2 is a very bright map which lends itself
+                very well to being able to clearly see other players, resulting in a big contrast in colors between
+                the map and the players in it.
+            </div>
+            <div className={'flex justify-center pt-10'}>
+                <div className={'grid grid-row-1 w-300 gap-10'}>
+                    <img src={PlayerContrast1} alt={'A Site Cover 1'} className={'h-100 row-start-1'}/>
+                    <img src={PlayerContrast2} alt={'Level Design Analysis'} className={'h-100 row-start-1'}/>
+                    <img src={PlayerContrast3} alt={'Level Design Analysis'} className={'h-100 row-start-1'}/>
+                </div>
+            </div>
+            <div className={'flex justify-start px-100 font-outfit pt-5'}>
+                Based on all the pictures above we can see how much the player characters stand out against
+                the background of the map. This ensures that the most important things are seen first and
+                stand out against everything else.
+            </div>
+            <div className={'flex justify-start px-100 font-outfit font-bold text-4xl pt-10'}>
+                Performance
+            </div>
+            <div className={'flex justify-start px-100 font-outfit pt-5'}>
+                When developing anything for a game performance is one of top priorities. This is amplified
+                in competitive shooters where even a single frame lost could be the difference between winning
+                and losing. So when developing maps it is critical to not only think about the pure visuals and
+                the design choices but also how it will run for players.
+            </div>
+            <div className={'flex justify-center pt-10'}>
+                <img src={Dust2Fps} alt={'Level Design Analysis'} />
+            </div>
+            <div className={'flex justify-start px-100 font-outfit pt-5'}>
+                When playing on my pc which has a GTX 1070 from 2016 I average around 200-300 fps which
+                is very high for a system this old. From this testing alone we are able to see that older
+                graphics cards will be able to run the map well resulting in a better experience for players.
+            </div>
+            <div className={'flex justify-start px-100 font-outfit font-bold text-4xl pt-10'}>
+                Summary
+            </div>
+            <div className={'flex justify-start px-100 font-outfit py-5'}>
+                Dust 2 takes into account everything from gameplay design choices, visual clarity, and
+                performance to ensure the best playing experience for the most amount of players. Taking the
+                design choices of the amount of cover, player visibility, and repositioning to allow for
+                clear strategy formation and consistent gameplay. After the layout of the map was decided it
+                was equally important to retain visual clarity which Dust 2 has done. The brightness of the map
+                contrasts greatly with the player models, making sure that the player characters are what people
+                will see first. Lastly the performance of the map is very good with little to no hitching, allowing
+                for the players to always be competitive. All of this together is what created one of the most
+                iconic maps in all of gaming history.
             </div>
         </>
     )
