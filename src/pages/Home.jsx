@@ -2,8 +2,6 @@ import Showcase from '../components/Showcase.jsx'
 import DieOrPrizeImg from '../img/DieorPrize.png'
 import BohemianImg from '../img/bohemian-ret.jpg'
 import OnlyUpImg from '../img/Only-Up.png'
-import {Route, Routes} from "react-router-dom";
-import DieOrPrize from './InfoPages/DieOrPrize.jsx'
 
 export default function Home() {
     return (
