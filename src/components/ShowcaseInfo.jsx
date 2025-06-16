@@ -18,7 +18,6 @@ export default function ShowcaseInfo({title, description, tags}) {
                             ))}
                         </ul>
                     </div>
-                    <Link className={'italic'} to={`/${title}`}>Learn more about {title} here</Link>
                 </div>
             </div>
         </>
