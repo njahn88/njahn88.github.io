@@ -9,6 +9,10 @@ import ASiteGoose from '/src/img/Dust2Analysis/ASite-Goose1.png'
 import ASiteGoose2 from '/src/img/Dust2Analysis/ASite-Goose2.png'
 import ASiteCar1 from '/src/img/Dust2Analysis/ASite-Car1.png'
 import ASiteCar2 from '/src/img/Dust2Analysis/ASite-Car2.png'
+import BSiteOverview from '/src/img/Dust2Analysis/BSite-Overview.png'
+import BSiteMap from '/src/img/Dust2Analysis/BSite-Map.png'
+import BSiteSite from '/src/img/Dust2Analysis/BSite-Site.png'
+import BSiteSite2 from '/src/img/Dust2Analysis/BSite-Site2.png'
 
 export default function Dust2Analysis(){
     return (
@@ -144,6 +148,36 @@ export default function Dust2Analysis(){
                 not cover positions like "Ramp", "Ninja", "Elevator", and many more it does give an insight into while the
                 designers made the choices they did and how even a small miss calculation of power could have led to an imbalance of power
                 between teams.
+            </div>
+            <div className={'flex justify-start px-100 font-outfit font-bold text-3xl pt-10'}>
+                The B bomb site
+            </div>
+            <div className={'flex justify-center pt-10'}>
+                <div className={'grid grid-cols-2 w-300 gap-10'}>
+                    <img src={BSiteOverview} alt={'A Site Cover 1'} className={'w-200 h-100'}/>
+                    <img src={BSiteMap} alt={'Level Design Analysis'} className={'h-100'}/>
+                </div>
+            </div>
+            <div className={'flex justify-start px-100 font-outfit pt-5'}>
+                The B bomb site of Dust 2 was designed heavily around short range engagements. Having three main entry points
+                and only one of them being easily accessible from the Terrorist team, careful design choices needed to be made
+                to ensure healthy and balanced gameplay.
+            </div>
+            <div className={'flex justify-start px-100 font-outfit pt-5'}>
+                The first position I would like to look at this the "Site" position. This position is by far the strongest
+                single position on the B bomb site and allows for repositioning, cover, and vision of the entry points
+                that could be attacked.
+            </div>
+            <div className={'flex justify-center pt-10'}>
+                <div className={'grid grid-cols-2 w-300 gap-10'}>
+                    <img src={BSiteSite} alt={'A Site Cover 1'} className={'w-200 h-100'}/>
+                    <img src={BSiteSite2} alt={'Level Design Analysis'} className={'h-100'}/>
+                </div>
+            </div>
+            <div className={'flex justify-start px-100 font-outfit pt-5'}>
+                This position has the most vision to cover ratio of all the positions on the sight, but while it strives in these
+                areas it lacks in repositioning ability. The player depending on where exactly they are positioned on site will give
+                them vision of "tunnels", "window", and "doors". 
             </div>
         </>
     )
