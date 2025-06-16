@@ -7,6 +7,8 @@ import ASiteCoverB1 from '/src/img/Dust2Analysis/ASite-CoverB-1.png'
 import ASiteCoverB2 from '/src/img/Dust2Analysis/ASite-CoverB-2.png'
 import ASiteGoose from '/src/img/Dust2Analysis/ASite-Goose1.png'
 import ASiteGoose2 from '/src/img/Dust2Analysis/ASite-Goose2.png'
+import ASiteCar1 from '/src/img/Dust2Analysis/ASite-Car1.png'
+import ASiteCar2 from '/src/img/Dust2Analysis/ASite-Car2.png'
 
 export default function Dust2Analysis(){
     return (
@@ -115,7 +117,33 @@ export default function Dust2Analysis(){
                 The "Goose" position as seen by the first image allows for the player to see almost all of "Long". This position, tucked into the back corner
                 of the A site, does give full protection from the "Cat" position at the cost of not being able to see all of "Long". If the player wants to
                 see more of "Long" and defend it completely, they must move to the left as seen in the second picture. What this does is gives the player full
-                vision of the "Long" position while also being fully exposed to the "Cat" position.
+                vision of the "Long" position with little cover while also being fully exposed to the "Cat" position.
+            </div>
+            <div className={'flex justify-start px-100 font-outfit pt-5'}>
+                The final position I would like to look at would be the "Car" position which is away slightly from the main A bomb site. This position
+                allows full vision of the the "Cat", "Long", and even some of the "Middle" position with a good amount of cover. It might seem like a position that allows
+                full vision of the most import choke points of the bomb site while also providing full cover would be too strong, but there is one
+                key design choice that combats this, being the ability to easily reposition.
+            </div>
+            <div className={'flex justify-center pt-10'}>
+                <div className={'grid grid-cols-2 w-300 gap-10'}>
+                    <img src={ASiteCar1} alt={'A Site Cover 1'} className={'w-200 h-100'}/>
+                    <img src={ASiteCar2} alt={'Level Design Analysis'} className={'h-100'}/>
+                </div>
+            </div>
+            <div className={'flex justify-start px-100 font-outfit pt-5'}>
+                With this being one of the strongest positions on the A site to defend against the "Long" and "Cat" positions.
+                The developers needed to counter balance that power with a few glaring flaws. These flaws being that the player, while
+                having vision of both choke points, is also now able to be attacked from both those points too. The biggest power
+                drain from the position would be that if the player is in trouble, they must expose themselves completely to
+                both "Long" and "Cat" in order to reposition.
+            </div>
+            <div className={'flex justify-start px-100 font-outfit pt-5'}>
+                The developers of the map had to ensure that every position of the bomb site is balanced. They had "levers" so to
+                say corresponding to the amount of cover, vision, and repositioning abilities of any given position. While this does
+                not cover positions like "Ramp", "Ninja", "Elevator", and many more it does give an insight into while the
+                designers made the choices they did and how even a small miss calculation of power could have led to an imbalance of power
+                between teams.
             </div>
         </>
     )
