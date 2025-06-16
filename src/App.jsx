@@ -10,7 +10,7 @@ import OnlyUp from './pages/InfoPages/OnlyUp.jsx'
 import Dust2Analysis from './pages/BlogPages/Dust2Analysis.jsx'
 
 function App() {
-
+ 
   return (
     <>
         <Navbar />
