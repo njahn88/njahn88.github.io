@@ -1,5 +1,12 @@
 import Dust2OldImg from '/src/img/Dust2Analysis/Dust2-old.jpg'
 import Dust2NewImg from '/src/img/Dust2Analysis/Dust_2_CS2.jpg'
+import Dust2AMap from '/src/img/Dust2Analysis/ASite-map.png'
+import ASiteCover1 from '/src/img/Dust2Analysis/ASite-Cover1.png'
+import ASiteCover1Exposed from '/src/img/Dust2Analysis/ASite-Cover-Exposed.png'
+import ASiteCoverB1 from '/src/img/Dust2Analysis/ASite-CoverB-1.png'
+import ASiteCoverB2 from '/src/img/Dust2Analysis/ASite-CoverB-2.png'
+import ASiteGoose from '/src/img/Dust2Analysis/ASite-Goose1.png'
+import ASiteGoose2 from '/src/img/Dust2Analysis/ASite-Goose2.png'
 
 export default function Dust2Analysis(){
     return (
@@ -52,6 +59,63 @@ export default function Dust2Analysis(){
             <div className={'flex justify-start px-100 font-outfit'}>
                 The A bomb site on Dust 2 has two main features these being both a long and close range combat area. Due to the
                 drastic differences in combat encounters, the site needed to be created in a way to facilitate these.
+            </div>
+            <div className={'flex justify-center pt-10'}>
+                <img src={Dust2AMap} alt={'Level Design Analysis'} />
+            </div>
+            <div className={'flex justify-start px-100 font-outfit pt-5'}>
+                For the section of the site that is focused around shorter range engagements the designers added more places for the
+                Counter Terrorists team to use as cover, but with these added options for cover the designers needed to consider they
+                goals for the long range portion of the site. They handled this by making the cover only provide real benefits for one
+                entrance. Most of the cover on the site is beneficial to providing cover from those attacking from the area with the
+                shorter engagements, while leaving the player exposed to the area with longer engagements.
+            </div>
+            <div className={'flex justify-center pt-10'}>
+                <div className={'grid grid-cols-2 w-300 gap-10'}>
+                    <img src={ASiteCover1} alt={'A Site Cover 1'} className={'w-200'}/>
+                    <img src={ASiteCover1Exposed} alt={'Level Design Analysis'} className={'h-100'}/>
+                </div>
+            </div>
+            <div className={'flex justify-start px-100 font-outfit pt-5'}>
+                For the first image this gives cover from the "Cat" position of the bomb site, while the second image shows how
+                this is also exposing them to the "Long"
+                position at the same time. This has balanced this position so that if you want more protected from the "Cat" position
+                you must have less protection from the "Long" side. An import note is that this position does allow the player to move
+                freely where as the next position restricts the players movement, making a slightly more risky position to hold.
+            </div>
+            <div className={'flex justify-start px-100 font-outfit pt-5'}>
+                These next two images show another position of cover on the A bomb site that provides cover from the "Cat" position and
+                the "Long" position, but at the cost of forced reduction of movement capabilities.
+            </div>
+            <div className={'flex justify-center pt-10'}>
+                <div className={'grid grid-cols-2 w-300 gap-10'}>
+                    <img src={ASiteCoverB1} alt={'A Site Cover 1'} className={'w-200 h-100'}/>
+                    <img src={ASiteCoverB2} alt={'Level Design Analysis'} className={'h-100'}/>
+                </div>
+            </div>
+            <div className={'flex justify-start px-100 font-outfit pt-5'}>
+                This position gives cover from the "Cat" and "Long" position at the same time, but does restrict the player from
+                being able to move backwards. The lip of the construction as seen by the red arrow in the second image prevents the player from being
+                able to move backward or forward depending on where the player is looking. What this means is that if the player is
+                being pressured too heavily from the "Cat" position and would like to move away, they must either run to the right (Exposing them completely
+                to the "Cat" position) or jump onto the lip and retreat to the "Ramp" (Also exposing them to the "Cat" position).
+            </div>
+            <div className={'flex justify-start px-100 font-outfit pt-5'}>
+                The next and possibly most famous position in all of Dust 2 would be "Goose", a powerful position typically used by players with longer ranged weapons.
+                The main goals of this position is to balance the amount of vision of the "Long" position to the amount of cover from the
+                "Cat" position. Let's see how they achieved this difficult area.
+            </div>
+            <div className={'flex justify-center pt-10'}>
+                <div className={'grid grid-cols-2 w-300 gap-10'}>
+                    <img src={ASiteGoose} alt={'A Site Cover 1'} className={'w-200 h-100'}/>
+                    <img src={ASiteGoose2} alt={'Level Design Analysis'} className={'h-100'}/>
+                </div>
+            </div>
+            <div className={'flex justify-start px-100 font-outfit pt-5'}>
+                The "Goose" position as seen by the first image allows for the player to see almost all of "Long". This position, tucked into the back corner
+                of the A site, does give full protection from the "Cat" position at the cost of not being able to see all of "Long". If the player wants to
+                see more of "Long" and defend it completely, they must move to the left as seen in the second picture. What this does is gives the player full
+                vision of the "Long" position while also being fully exposed to the "Cat" position.
             </div>
         </>
     )
