@@ -24,7 +24,7 @@ function App() {
             <Route path='/Bohemian Retreat' element={<BohemianRetreat/>}/>
             <Route path='/Only Up' element={<OnlyUp/>}/>
             <Route path='/Blog/Level Design Analysis: Counter Strike 2' element={<Dust2Analysis/>}/>
-            <Route path='/Blog/Reworking League of Legends Tutorial' element={<ReworkLolTutorial/>}/>
+            <Route path='/Blog/Reworking League of Legends New Player Experience' element={<ReworkLolTutorial/>}/>
         </Routes>
     </>
   )
