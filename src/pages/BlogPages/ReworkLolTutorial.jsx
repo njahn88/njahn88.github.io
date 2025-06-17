@@ -195,8 +195,23 @@ export default function ReworkLolTutorial() {
             </div>
             <div className={'flex justify-start px-10 md:px-125 font-outfit pt-3'}>
                 League of Legends already has icons for the categories of items in the shop. These icons could be
-                repurposed to show types of champions. Just a simple addition to the UI could go a long way to
-                smoothing out the learning curve for new players.
+                repurposed to show types of champions and what they can do without needing full knowledge of the
+                given champions kit.
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-3xl pt-10'}>
+                Summary
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 font-outfit py-3'}>
+                The current new player experience in League of Legends needs to be reworked to better suit focused gameplay
+                for new players. These changes could include a revamped tutorial level focusing on champion specific
+                abilities, lane phase, and middle game phase. Having the tutorial more focused to a single champion
+                would greatly help new players understand the role their champion serves and how a typical game of
+                League of Legends plays out from beginning to end. In addition to the tutorial overhaul, adding role
+                based indicators would help greatly for new players who might not have enough time to sit down and
+                play 15 games a day and just want to get as much information as they need while starting their
+                League of Legends journey. All of these changes together would certainly lead players having a
+                much better understanding of all the complex topics that League of Legends has to offer and
+                lowering the potential frustration that comes with not knowing.
             </div>
         </>
     )
