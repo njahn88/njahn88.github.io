@@ -8,6 +8,7 @@ import DieOrPrize from "./pages/InfoPages/DieOrPrize.jsx";
 import BohemianRetreat from './pages/InfoPages/BohemianRetreat.jsx'
 import OnlyUp from './pages/InfoPages/OnlyUp.jsx'
 import Dust2Analysis from './pages/BlogPages/Dust2Analysis.jsx'
+import ReworkLolTutorial from './pages/BlogPages/ReworkLolTutorial.jsx'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
             <Route path='/Bohemian Retreat' element={<BohemianRetreat/>}/>
             <Route path='/Only Up' element={<OnlyUp/>}/>
             <Route path='/Blog/Level Design Analysis: Counter Strike 2' element={<Dust2Analysis/>}/>
+            <Route path='/Blog/Reworking League of Legends Tutorial' element={<ReworkLolTutorial/>}/>
         </Routes>
     </>
   )
