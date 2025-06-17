@@ -1,3 +1,7 @@
+import AsheStartImg from '/src/img/LolPlayerExperienceRework/AsheStart.png'
+import AsheFirstPartTutorialImg from '/src/img/LolPlayerExperienceRework/AsheFirstPartTutorial.png'
+import AsheLanePhase from '/src/img/LolPlayerExperienceRework/AsheLanePhase.png'
+
 export default function ReworkLolTutorial() {
     return (
         <>
@@ -90,6 +94,9 @@ export default function ReworkLolTutorial() {
                 lead to players having a better understanding of what they actually need to be doing when playing
                 a real game.
             </div>
+            <div className={'flex justify-center pt-10'}>
+                <img src={AsheStartImg} alt={'Level Design Analysis'} className={'h-100'}/>
+            </div>
             <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-2xl pt-10'}>
                 Example
             </div>
@@ -101,8 +108,53 @@ export default function ReworkLolTutorial() {
                 Start
             </div>
             <div className={'flex justify-start px-10 md:px-125 font-outfit pt-3'}>
-                We can stick with Ashe for this example and see what a focused bot lane tutorial might
-                look like and how it would be better than what is currently available.
+                Right at the beginning I think the player should be put into a custom built level similar to
+                an arena. This arena would only have the Ashe champion and a target dummy. This would focus
+                the player and not have them worry about minions, lanes, turrets, etc. This part of the tutorial
+                would explain basic movement and attacking while also introducing the champions abilities.
+            </div>
+            <div className={'flex justify-start px-10 md:px-125 font-outfit pt-3 font-bold'}>
+                * I know
+                it would be difficult to add voice lines etc for all champions with this focused approach, but with
+                new lightweight AI models I think it could be achieved *
+            </div>
+            <div className={'flex justify-start px-10 md:px-125 font-outfit pt-3'}>
+                The voice over would go through each ability and explain the use cases, best practices, and any other
+                ability specific information.
+            </div>
+            <div className={'flex justify-center pt-10'}>
+                <img src={AsheFirstPartTutorialImg} alt={'Level Design Analysis'} className={'h-100'}/>
+            </div>
+            <div className={'flex justify-start px-10 md:px-125 font-outfit font-bold text-2xl pt-10'}>
+                Lane Phase
+            </div>
+            <div className={'flex justify-start px-10 md:px-125 font-outfit pt-3'}>
+                After the player has completed the first part of the tutorial and understands movement, attacking, and
+                their champions abilities it would be time to move them to the lane phase portion of their focused tutorial. This
+                part of the tutorial would go through the idea of minions, gold, and turrets. The player needs to understand
+                why they are killing minions, what gold is used for, why turrets are important, and not just tell the player
+                that those things exist. Explaining how as an ADC you are very weak early on and that you need to stay around
+                your support, focus on killing minions, and be aware of any potential threats in the jungle.
+            </div>
+            <div className={'flex justify-center pt-10'}>
+                <img src={AsheLanePhase} alt={'Level Design Analysis'} className={'h-100'}/>
+            </div>
+            <div className={'flex justify-start px-10 md:px-125 font-outfit pt-3'}>
+                Instead of just focusing on attacking towers like the current tutorial does, a good change would be to
+                show specific ideas. If the player gets too close to the enemy champions and their support is not nearby,
+                 then maybe the screen could flash red and voice line could explain that is it important to stay by the
+                support character.
+            </div>
+            <div className={'flex justify-start px-10 md:px-125 font-outfit font-bold text-2xl pt-10'}>
+                Mid Game
+            </div>
+            <div className={'flex justify-start px-10 md:px-125 font-outfit pt-3'}>
+                One of topics that is left out of the tutorial is the middle game phase of League of Legends,
+                despite it being one of the most important. This portion of the tutorial could sort of flash
+                forward, giving the player a full set of items, and positioning them and the other team around
+                Baron. This would introduce the other objectives in the game and why they are so critical. While
+                the player will not understand the other champions and their abilities, they will see what a typical
+                middle game fight will look like.
             </div>
         </>
     )
