@@ -1,6 +1,8 @@
 import AsheStartImg from '/src/img/LolPlayerExperienceRework/AsheStart.png'
 import AsheFirstPartTutorialImg from '/src/img/LolPlayerExperienceRework/AsheFirstPartTutorial.png'
 import AsheLanePhase from '/src/img/LolPlayerExperienceRework/AsheLanePhase.png'
+import RoleBaseIndicator from '/src/img/LolPlayerExperienceRework/RoleBasedIndicators.png'
+import LeagueOfLegendsIcons from '/src/img/LolPlayerExperienceRework/LeagueOfLegendsIcons.png'
 
 export default function ReworkLolTutorial() {
     return (
@@ -155,6 +157,46 @@ export default function ReworkLolTutorial() {
                 Baron. This would introduce the other objectives in the game and why they are so critical. While
                 the player will not understand the other champions and their abilities, they will see what a typical
                 middle game fight will look like.
+            </div>
+            <div className={'flex justify-start px-10 md:px-125 font-outfit font-bold text-2xl pt-10'}>
+                What does this new tutorial format solve
+            </div>
+            <div className={'flex justify-start px-10 md:px-125 font-outfit pt-3'}>
+                Being able to give players a choice in which champion they start as, showing them what
+                that champion is good at, and how to play the lane and middle game phase of league will give
+                every new player a good understanding of what is expected of them and the strengths and weaknesses
+                of their champion.
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-3xl pt-10'}>
+                UI Additions
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 font-outfit pt-3'}>
+                A few UI additions could go a long way in helping new players understand what to expect without
+                having to have full knowledge of a given enemy champion.
+            </div>
+            <div className={'flex justify-start px-10 md:px-125 font-outfit font-bold text-2xl pt-10'}>
+                Role Based Indicators
+            </div>
+            <div className={'flex justify-start px-10 md:px-125 font-outfit pt-3'}>
+                Role based indicators could be added next to the champions current level indicator. These
+                icons would be simple enough for a new player to understand after seeing them a few times and
+                would tell the player just by the icon, the potential threat an enemy champion has.
+            </div>
+            <div className={'flex justify-center pt-10'}>
+                <img src={RoleBaseIndicator} alt={'Level Design Analysis'} className={'h-100'}/>
+            </div>
+            <div className={'flex justify-start px-10 md:px-125 font-outfit pt-3'}>
+                This indicator for example would let the player know that that champion is primarily a healing/support
+                champion. With that knowledge, without even having to know the champions abilities, the player can
+                make certain assumptions as to the power level of the other champion.
+            </div>
+            <div className={'flex justify-center pt-10'}>
+                <img src={LeagueOfLegendsIcons} alt={'Level Design Analysis'} className={'h-20 w-100'}/>
+            </div>
+            <div className={'flex justify-start px-10 md:px-125 font-outfit pt-3'}>
+                League of Legends already has icons for the categories of items in the shop. These icons could be
+                repurposed to show types of champions. Just a simple addition to the UI could go a long way to
+                smoothing out the learning curve for new players.
             </div>
         </>
     )
