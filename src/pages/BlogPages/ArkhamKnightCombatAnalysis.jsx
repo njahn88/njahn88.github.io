@@ -1,7 +1,9 @@
 export default function ArkhamKnightCombatAnalysis() {
     return (
         <>
-            Batman Arkham Design
+            <div className={'flex justify-center font-outfit font-bold py-3 text-2xl text-center'}>
+                Combat Design Analysis: Batman Arkham Knight
+            </div>
         </>
     )
 }

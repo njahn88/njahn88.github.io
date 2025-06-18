@@ -6,7 +6,7 @@ export default function Blog(){
             <div className={'flex justify-center flex-wrap'}>
                 <div className={'w-full flex justify-center'}>
                     <div className={'flex justify-center items-center flex-wrap p-5 w-200 text-center'}>
-                        <BlogPost title={'Combat Design Analysis Batman: Arkham Knight'}  description={'A look into the design decisions made by the Rocksteady developers to create an indepth and smooth combat experience.' }/>
+                        <BlogPost title={'Combat Design Analysis: Batman Arkham Knight'}  description={'A look into the design decisions made by the Rocksteady developers to create an indepth and smooth combat experience.' }/>
                         <hr className={'border-gray-300 mx-6 w-full'} />
                     </div>
                 </div>
