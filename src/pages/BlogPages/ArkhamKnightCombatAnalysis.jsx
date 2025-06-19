@@ -34,11 +34,16 @@ export default function ArkhamKnightCombatAnalysis() {
                 <img src={ArkhamStrikeGif} alt={'A Site Cover 1'} className={'w-128 h-72 md:w-192 md:h-108'}/>
                 <img src={ArkhamCounterGif} alt={'Level Design Analysis'} className={'w-128 h-72 md:w-192 md:h-108'}/>
             </div>
-            <div className={'flex justify-start px-10 md:px-100 font-outfit'}>
+            <div className={'flex justify-start px-10 md:px-100 font-outfit pt-5'}>
                 In the second clip you can see one of the main design choices made by the Rocksteady team and that is
                 the color to danger levels. The normal attack from enemies causes a blue indicator to appear over their
                 head while a charge attack will cause a red indicator to appear. These colors help the player gauge the
                 danger level of each attack while also training the player to associate a color with a button press.
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 font-outfit pt-5'}>
+                Within the first 10 minutes of the playing the game the designers have expertly introduced the core
+                mechanics of the game which are attacking, countering, and dodging allowing for new players to feel
+                comfortable and begin training their brain to become prepared for whatever new challenges may arise.
             </div>
         </>
     )
