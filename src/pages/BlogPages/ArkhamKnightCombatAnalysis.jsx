@@ -10,9 +10,7 @@ export default function ArkhamKnightCombatAnalysis() {
                 Arkham Knight Intro Design Analysis
             </div>
             <div className={'flex justify-start px-10 md:px-100 font-outfit'}>
-                Superhero games over the past decade or so have aimed to sell the "makes you feel like X" idea. Marvel's
-                Spider-Man, released in 2018, had several reviews all claiming the game "makes you feel like Spider-Man" and
-                rightly so. 
+                The intro of any video game is the most important half an hour
             </div>
         </>
     )
