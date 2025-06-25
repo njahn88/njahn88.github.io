@@ -1,4 +1,8 @@
 import Devlog_1 from '/src/img/Devlog/Devlog_1.png'
+import Devlog_2 from '/src/img/Devlog/Devlog_2.png'
+import Devlog_3 from '/src/img/Devlog/Devlog_3.png'
+import Devlog_Gif_1 from '/src/img/Devlog/Devlog_gif_1.gif'
+
 export default function Devlog(){
     return (
         <>
@@ -45,6 +49,34 @@ export default function Devlog(){
                 that explains everything to the player. While this does serve the purpose of teaching the player, over use can quickly
                 lead to the player feel like they are doing more reading than playing. This is not good. To counter this I have been
                 thinking of ways to teach the player about certain mechanics without having to spell it out for them.
+            </div>
+            <div className={'flex justify-center pt-10'}>
+                <img src={Devlog_2} alt={'Level Design Analysis'} />
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 pt-5 font-outfit'}>
+                With this being the first room the player will see, it is important to teach as much as possible. There is no
+                text that tells the player they need to jump or that the wall can and needs to be shot. What it does do is allow
+                the player to realize there must be a way to get over these spikes, after pressing all the buttons they will find the
+                jump button. This process will repeat for the wall blocking the exit. The only way the player will be able to leave the
+                starting room is if they know they can jump, shoot, and that some walls can be broken with their bullets. Being able to
+                teach the rules of a game without making the player feel dumb is crucial.
+            </div>
+            <div className={'flex justify-center pt-10'}>
+                <img src={Devlog_Gif_1} alt={'Level Design Analysis'} />
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 pt-5 font-outfit'}>
+                Here we can see the second room. Another chance to teach players the basic mechanics of the game while
+                remaining fair. What I mentioned earlier about color comes to play here with the wasp enemy. The strikingly
+                different colors make the wasp stand out and the colors themselves can give them information on what kind of
+                threat it might be.
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 pt-5 font-outfit'}>
+                We want to make sure the game is fair. For a lot of cases this means giving the player all the information they
+                need to complete a task and letting them put the pieces together. The player, once entering the room, will know
+                they can jump, they can shoot, and possibly that they are able to die in one hit. Once entering the room the player
+                has full vision of the new "thing", maybe unsure if it will hurt them or not. I added a single block separating the player
+                and the wasp to allow the player as much time as they need to determine what they will do with what they know. If the player waits
+                long enough they will see the wasp try to charge them, leading them to believe the wasp is against them.
             </div>
         </>
     )
