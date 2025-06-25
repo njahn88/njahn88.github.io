@@ -1,3 +1,4 @@
+import Devlog_1 from '/src/img/Devlog/Devlog_1.png'
 export default function Devlog(){
     return (
         <>
@@ -23,6 +24,14 @@ export default function Devlog(){
                 style of art I wanted I needed to pick a size for the Unity canvas. After a little research I found the resolution of 320 x 180
                 to be the best. This resolution allows for perfect up scaling to most all modern screen sizes, excluding widescreen. This smaller
                 canvas size means that the sprites I create will be smaller, thus reducing the amount of time I am spending on them.
+            </div>
+            <div className={'flex justify-center pt-10'}>
+                <img src={Devlog_1} alt={'Level Design Analysis'} />
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 pt-5 font-outfit'}>
+                Along with the smaller sprite sizes I would need to create I also wanted to reduce the color palette. Reducing the number of colors
+                I am using has made it so I worry less about perfect shading and can focus on using the striking difference in colors to point
+                the player in the right direction or give them a little more information.
             </div>
         </>
     )
