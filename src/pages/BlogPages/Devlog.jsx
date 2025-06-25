@@ -36,6 +36,7 @@ export default function Devlog(){
                 <img src={Devlog_1} alt={'Level Design Analysis'} />
             </div>
             <div className={'flex justify-start px-10 md:px-100 pt-5 font-outfit'}>
+                ** If you noticed how similar the ground sprites looks to those in Axiom Verge you would see a very close resemblance, these are just place holders **
                 Along with the smaller sprite sizes I would need to create I also wanted to reduce the color palette. Reducing the number of colors
                 I am using has made it so I worry less about perfect shading and can focus on using the striking difference in colors to point
                 the player in the right direction or give them a little more information.
