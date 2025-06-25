@@ -17,6 +17,9 @@ export default function Devlog(){
                 later on. This is what I have settled on so far.
             </div>
             <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
+                Devlog 1
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
                 Art Style *WIP*
             </div>
             <div className={'flex justify-start px-10 md:px-100 pt-5 font-outfit'}>
@@ -32,6 +35,16 @@ export default function Devlog(){
                 Along with the smaller sprite sizes I would need to create I also wanted to reduce the color palette. Reducing the number of colors
                 I am using has made it so I worry less about perfect shading and can focus on using the striking difference in colors to point
                 the player in the right direction or give them a little more information.
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
+                Game Design
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 pt-5 font-outfit'}>
+                One of the most frustrating things for someone who isn't as well versed in video games is the frustration that
+                comes with learning a new game. In recent history a lot of games have resorted to just throwing up a text box
+                that explains everything to the player. While this does serve the purpose of teaching the player, over use can quickly
+                lead to the player feel like they are doing more reading than playing. This is not good. To counter this I have been
+                thinking of ways to teach the player about certain mechanics without having to spell it out for them.
             </div>
         </>
     )
