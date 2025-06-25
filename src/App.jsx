@@ -10,6 +10,7 @@ import OnlyUp from './pages/InfoPages/OnlyUp.jsx'
 import Dust2Analysis from './pages/BlogPages/Dust2Analysis.jsx'
 import ReworkLolTutorial from './pages/BlogPages/ReworkLolTutorial.jsx'
 import ArkhamKnightCombatAnalysis from './pages/BlogPages/ArkhamKnightCombatAnalysis.jsx'
+import Devlog from './pages/BlogPages/Devlog.jsx'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
             <Route path='/Blog/Level Design Analysis: Counter Strike 2' element={<Dust2Analysis/>}/>
             <Route path='/Blog/Reworking League of Legends New Player Experience' element={<ReworkLolTutorial/>}/>
             <Route path='/Blog/Arkham Knight Intro Design Analysis' element={<ArkhamKnightCombatAnalysis/>}/>
+            <Route path='/Blog/Devlog' element={<Devlog/>}/>
         </Routes>
     </>
   )
