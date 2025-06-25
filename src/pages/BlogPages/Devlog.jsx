@@ -78,6 +78,20 @@ export default function Devlog(){
                 and the wasp to allow the player as much time as they need to determine what they will do with what they know. If the player waits
                 long enough they will see the wasp try to charge them, leading them to believe the wasp is against them.
             </div>
+            <div className={'flex justify-start px-10 md:px-100 py-5 font-outfit'}>
+                Since all the player knows is that going right means progress, the player should make their way towards the
+                ladders in the top right of the room. Once the player jumps towards them they will be able to climb up to
+                the next room. Having just visited three total rooms all players will have knowledge of moving, jumping, shooting, climbing,
+                and enemies all without a single letter of text and all while remaining fair to the player.
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
+                For Next Time
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 py-5 font-outfit'}>
+                I plan on next looking into some sounds to add to the game and maybe some music too. Due to the art style I will be
+                looking into retro sounds and how to create them, all while making sure to remember the design choices I have already made. After that
+                I want to look further into level design and how I can make interesting and fun levels for the players.
+            </div>
         </>
     )
 }
