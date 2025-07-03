@@ -20,7 +20,9 @@ export default function ArkhamKnightCombatAnalysis() {
                 Batman Arkham Knight start off in the exact same way.
             </div>
             <div className={'flex justify-start px-10 md:px-100 py-5 font-outfit'}>
-                Just after the intro cutscene and brief stint of gameplay 
+                Just after the intro cutscene and brief stint of gameplay, you are Batman. A crime fighting master, someone who
+                has put countless villans away time after time. You drop into a pack of grunts and for some reason you can't remember
+                how to punch, counter, or dodge. This doesn't make sense either. 
             </div>
         </>
     )
