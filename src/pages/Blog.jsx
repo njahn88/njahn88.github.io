@@ -4,14 +4,12 @@ export default function Blog(){
     return(
         <>
             <div className={'flex justify-center flex-wrap'}>
-                {/*
                 <div className={'w-full flex justify-center'}>
                     <div className={'flex justify-center items-center flex-wrap p-5 w-200 text-center'}>
                         <BlogPost title={'Arkham Knight Intro Design Analysis'}  description={'A look into the design decisions made by the Rocksteady developers to create an indepth and smooth combat experience.' }/>
                         <hr className={'border-gray-300 mx-6 w-full'} />
                     </div>
                 </div>
-                */}
                 <div className={'w-full flex justify-center'}>
                     <div className={'flex justify-center items-center flex-wrap p-5 w-200 text-center'}>
                         <BlogPost title={'Devlog'}  description={'Keep up with me as progress for my next games continues!' }/>
