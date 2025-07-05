@@ -51,6 +51,12 @@ export default function ArkhamKnightCombatAnalysis() {
                 lecture. With all that said it doesn't mean that games can't have text or clearly laid out "Tutorials" it's just that
                 there are better and more seamless ways of giving the player the same information.
             </div>
+            <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
+                What Arkham Knight's intro gets right
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 py-5 font-outfit'}>
+
+            </div>
         </>
     )
 }
