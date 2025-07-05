@@ -32,7 +32,7 @@ export default function Devlog(){
             <div className={'flex justify-start px-10 md:px-100 py-2 font-outfit'}>
                 As you can see from the video above the player is able to jump even when not directly on a ledge. While technically
                 the player should not be able to jump it is important that the gameplay feels smooth. Without this grace period the game
-                feels a little clunky and for a platforming game this is not what you want.
+                feels a little clunky and for a platforming game this can lead to player frustration.
             </div>
             <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
                 Devlog 1
