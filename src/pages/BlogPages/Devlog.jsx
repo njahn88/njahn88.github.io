@@ -10,6 +10,17 @@ export default function Devlog(){
                 Devlog
             </div>
             <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
+                Devlog 2
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 font-outfit'}>
+                This update focuses on the mechanics of the game, more specifically movement. Having worked on other platformers
+                in the past I knew that the movement of the game will have a profound impact on the players overall experience.
+                With this in mind I wanted to make sure that the movement felt smooth and responsive.
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
+                Movement
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
                 Devlog 1
             </div>
             <div className={'flex justify-start px-10 md:px-100 font-outfit'}>
