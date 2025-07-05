@@ -61,7 +61,7 @@ export default function ArkhamKnightCombatAnalysis() {
                 with a mechanic they are immediately introduced to without the risk of losing, reducing the potential
                 for frustration. Another thing the intro does well is reducing the time the player has to wait before
                 getting into the gameplay. There are a lot of games that will use the beginning of a game to "lore" dump,
-                pushing the gameplay further and making the player wait to actually play the game. 
+                pushing the gameplay further and making the player wait to actually play the game.
             </div>
         </>
     )
