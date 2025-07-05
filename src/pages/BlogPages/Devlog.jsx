@@ -2,6 +2,7 @@ import Devlog_1 from '/src/img/Devlog/Devlog_1.png'
 import Devlog_2 from '/src/img/Devlog/Devlog_2.png'
 import Devlog_3 from '/src/img/Devlog/Devlog_3.png'
 import Devlog_Gif_1 from '/src/img/Devlog/Devlog_gif_1.gif'
+import Devlog2_Coyote_Gif from '/src/img/Devlog/Devlog2_Coyote.gif'
 
 export default function Devlog(){
     return (
@@ -19,6 +20,19 @@ export default function Devlog(){
             </div>
             <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
                 Movement
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 font-outfit'}>
+                The first thing I tackled was making sure the movement felt fluid and an easy way developers can achieve this
+                for platformer games is to add "Coyote time". What Coyote time does is gives the player character the ability
+                to jump for a split second after falling off a ledge.
+            </div>
+            <div className={'flex justify-center pt-10'}>
+                <img src={Devlog2_Coyote_Gif} alt={'Level Design Analysis'} />
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 py-2 font-outfit'}>
+                As you can see from the video above the player is able to jump even when not directly on a ledge. While technically
+                the player should not be able to jump it is important that the gameplay feels smooth. Without this grace period the game
+                feels a little clunky and for a platforming game this is not what you want.
             </div>
             <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
                 Devlog 1
