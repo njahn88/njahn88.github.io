@@ -55,7 +55,9 @@ export default function ArkhamKnightCombatAnalysis() {
                 What Arkham Knight's intro gets right
             </div>
             <div className={'flex justify-start px-10 md:px-100 py-5 font-outfit'}>
-
+                The intro of Arkham Knight sets up the atmosphere really well and teaches the player how to
+                glide around the city. It tells the player how to glide and puts them in an area where even
+                if the player messes up and falls, they won't be punished.
             </div>
         </>
     )
