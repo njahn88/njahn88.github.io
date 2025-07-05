@@ -57,7 +57,11 @@ export default function ArkhamKnightCombatAnalysis() {
             <div className={'flex justify-start px-10 md:px-100 py-5 font-outfit'}>
                 The intro of Arkham Knight sets up the atmosphere really well and teaches the player how to
                 glide around the city. It tells the player how to glide and puts them in an area where even
-                if the player messes up and falls, they won't be punished.
+                if the player messes up and falls, they won't be punished. This allows the player to get comfortable
+                with a mechanic they are immediately introduced to without the risk of losing, reducing the potential
+                for frustration. Another thing the intro does well is reducing the time the player has to wait before
+                getting into the gameplay. There are a lot of games that will use the beginning of a game to "lore" dump,
+                pushing the gameplay further and making the player wait to actually play the game. 
             </div>
         </>
     )
