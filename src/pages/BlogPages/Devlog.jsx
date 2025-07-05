@@ -9,6 +9,9 @@ export default function Devlog(){
             <div className={'flex justify-center font-outfit font-bold py-3 text-2xl text-center'}>
                 Devlog
             </div>
+            <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
+                Devlog 1
+            </div>
             <div className={'flex justify-start px-10 md:px-100 font-outfit'}>
                 With any well designed game you want to start by looking into the design choices that will
                 effect the most parts of the game. These could be things like art style, audio style, core
@@ -19,9 +22,6 @@ export default function Devlog(){
                 have a big impact. As someone who frequently gets caught in the "but it looks bad" mindset I wanted
                 to make sure whatever I ended up choosing would be easy and wouldn't lead to frustrations
                 later on. This is what I have settled on so far.
-            </div>
-            <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
-                Devlog 1
             </div>
             <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
                 Art Style *WIP*
