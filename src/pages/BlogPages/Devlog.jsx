@@ -38,7 +38,11 @@ export default function Devlog(){
                 Conveyance
             </div>
             <div className={'flex justify-start px-10 md:px-100 py-2 font-outfit'}>
-                When making a game having objectives, level design, enemies, etc with a good sense of conveyance is important.
+                When making a game having objectives, level design, enemies, etc with a good sense of conveyance is important. What is
+                conveyance? Conveyance can be interpreted in many ways but for me it follows this, "The ability to show without telling". The
+                conveyance of a level should be the way the level subliminally tells the player what to do, think of things like using height
+                to guide players eyes to their destination, lights to show where the player should go, structures to guide players eyes to a specific
+                point in the map.
             </div>
             <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
                 Devlog 1
