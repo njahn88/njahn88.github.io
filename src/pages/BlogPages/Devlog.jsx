@@ -42,7 +42,13 @@ export default function Devlog(){
                 conveyance? Conveyance can be interpreted in many ways but for me it follows this, "The ability to show without telling". The
                 conveyance of a level should be the way the level subliminally tells the player what to do, think of things like using height
                 to guide players eyes to their destination, lights to show where the player should go, structures to guide players eyes to a specific
-                point in the map.
+                point in the level.
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 py-2 font-outfit'}>
+                For the enemies in my game I wanted to make sure the intentions of the enemies are clear to the player. For example when the
+                wasp enemy sees the player it will slow down its movement speed and then charge the player. This gives the player a chance to notice
+                the difference in movement speed between the aggro and non-aggro states. Without this grace period, there is a chance that a lot of players
+                might think the game is unfair.
             </div>
             <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
                 Devlog 1
