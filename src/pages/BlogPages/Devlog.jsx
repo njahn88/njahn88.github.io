@@ -35,6 +35,12 @@ export default function Devlog(){
                 feels a little clunky and for a platforming game this can lead to player frustration.
             </div>
             <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
+                Conveyance
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 py-2 font-outfit'}>
+                When making a game having objectives, level design, enemies, etc with a good sense of conveyance is important.
+            </div>
+            <div className={'flex justify-start px-10 md:px-100 font-outfit font-bold text-4xl pt-10'}>
                 Devlog 1
             </div>
             <div className={'flex justify-start px-10 md:px-100 font-outfit'}>
